@@ -19,7 +19,6 @@ for file in audio_files:
     try:
         result = model.transcribe(
             audio=f"audio_uploads/{file}",
-            language="hi",
             task="translate",
             word_timestamps=False
         )

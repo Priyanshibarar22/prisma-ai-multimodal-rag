@@ -20,7 +20,6 @@ for audio in audios:
 
         result = model.transcribe(
             audio=f"audios/{audio}",
-            language="hi",
             task="translate",
             word_timestamps=False
         )

@@ -121,7 +121,6 @@ def process_file(path, filename):
 
             transcription = whisper_model.transcribe(
                 audio=audio_path,
-                language="hi",
                 task="translate",
                 word_timestamps=False,
                 temperature=0,
