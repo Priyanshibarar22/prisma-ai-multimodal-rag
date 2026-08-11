@@ -142,8 +142,10 @@ PRISMA_AI/
 ├── create_embeddings.py       # Batch embedding + FAISS index builder
 ├── search.py                  # Standalone retrieval testing utility
 ├── qa.py                      # Standalone Q&A testing utility
+├── screenshots                # Screenshots of working web application       
 ├── requirements.txt
 ├── .gitignore
+
 
 ```
 
@@ -160,6 +162,24 @@ PRISMA_AI/
 7. **Retrieval** — FAISS returns the closest matches, filtered against a relevance threshold to exclude weak or unrelated results
 8. **Generation** — retrieved chunks are passed to Groq's Llama model with an explicit instruction to answer only from the supplied context
 9. **Response** — the final answer is displayed with clear, clickable source citations
+
+---
+## 📸 Screenshots
+
+### Multi-File Upload with Live Progress
+![Upload](screenshots/upload.png)
+![Upload_Sucessfully](screenshots/uploaded_sucessfully.png)
+
+### Grounded, Cited Answers With Sources
+![Chat_Question](screenshots/question_asked.png)
+![Chat_Answer](screenshots/chat_answer.png)
+![Chat_Sources](screenshots/answer_sources.png)
+
+### Knowledge Base Management
+![Knowledge Base](screenshots/knowledge_base.png)
+
+### New Chat & Persistent Chat History 
+![History](screenshots/new_chat_and_history.png)
 
 ---
 
