@@ -238,7 +238,6 @@ streamlit run frontend.py
 
 The app opens automatically at `http://localhost:8501`.
 
----
 
 ## 🚀 Live Demo & Deployment
 
@@ -249,6 +248,7 @@ The app opens automatically at `http://localhost:8501`.
 If you are deploying this application on Streamlit Cloud, make sure to add your Groq API key securely under the **App Settings > Secrets** section using TOML format:
 ```toml
 GROQ_API_KEY = "your_groq_api_key_here"
+```
 
 ---
 
