@@ -211,13 +211,15 @@ PRISMA AI was built and tested against real-world edge cases, not just the happy
 ### Prerequisites
 - Python 3.10+ (Tested and built on Python 3.12.13)
 - [FFmpeg](https://ffmpeg.org/download.html) installed and available on your system PATH
+- OpenAI Whisper for audio/video transcription
 - A free [Groq API key](https://console.groq.com)
 
 ### Installation
 
 ```bash
+git clone
 https://github.com/Priyanshibarar22/prisma-ai-multimodal-rag.git
-cd PRISMA_AI
+cd prisma-ai-multimodal-rag
 pip install -r requirements.txt
 ```
 
@@ -235,6 +237,18 @@ streamlit run frontend.py
 ```
 
 The app opens automatically at `http://localhost:8501`.
+
+---
+
+## 🚀 Live Demo & Deployment
+
+- **Live Application:** [View Live App on Streamlit Cloud](https://priyanshibarar22-prisma-ai-multimodal-rag-frontend-x9t388.streamlit.app/)
+
+### ☁️ Deployment Note (Streamlit Cloud)
+
+If you are deploying this application on Streamlit Cloud, make sure to add your Groq API key securely under the **App Settings > Secrets** section using TOML format:
+```toml
+GROQ_API_KEY = "your_groq_api_key_here"
 
 ---
 
