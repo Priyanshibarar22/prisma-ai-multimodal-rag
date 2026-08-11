@@ -238,6 +238,7 @@ streamlit run frontend.py
 
 The app opens automatically at `http://localhost:8501`.
 
+---
 
 ## 🚀 Live Demo & Deployment
 
